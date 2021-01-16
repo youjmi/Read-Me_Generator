@@ -47,7 +47,7 @@ inquirer
 
         fs.writeFile("README.md", JSON.stringify(data, null, '\r\n' ), (err) =>
 
-            err ? console.log(err) : console.log("Success!!!")
+            err ? console.log(err) : console.log("Success!!! Your ReadMe is now created")
         );
     });
 
