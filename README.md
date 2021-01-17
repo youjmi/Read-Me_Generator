@@ -1,5 +1,7 @@
 
-  ## Test ReadMe Generator
+  ## Testing ReadMe Generator
+  License used is from :
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Table of Contents
   * [Description](#description)
@@ -12,22 +14,22 @@
 
 
   ## [Description] 
-  
+  Not at this time
   
   ## [Installation]
-  Sure thung
+  test test test test
   
 
   ## [Usage]
-  To create a readMe Generator easily
+  To create a ReadMe efficiently and quickly
 
   ## [License]
   
   License used is from :
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
   source:
-  (https://opensource.org/licenses/MPL-2.0)
+  (https://www.gnu.org/licenses/gpl-3.0)
 
   ## [Contributions]
   Not at this time
@@ -37,9 +39,9 @@
 
 
   ## [Questions or Concerns?]
-  - Issues: not at this time
+  - Issues: What is the meaning of life?
   - Name: Young Ji
   - GitHub Username: youjmi
-  - Email: nope!
+  - Email: test@gmail.com
   
   

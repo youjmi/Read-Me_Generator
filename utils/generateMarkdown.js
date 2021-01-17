@@ -61,6 +61,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   ## ${data.title}
+  License used is from :
+  ${renderLicenseBadge(data.license)}
 
   ## Table of Contents
   * [Description](#description)
