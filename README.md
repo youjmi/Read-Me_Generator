@@ -1,9 +1,9 @@
 
-  ## ReadMeGenerator Test
+  ## Test ReadMe Generator
 
   ## Table of Contents
   * [Description](#description)
-  * [Installation] (#installation)
+  * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributions](#constribution)
@@ -12,34 +12,34 @@
 
 
   ## [Description] 
-  Just working on this and seeing how it works/displays on github. Will Delete this later
+  
   
   ## [Installation]
-  ok
+  Sure thung
   
 
   ## [Usage]
-  I have no idea
+  To create a readMe Generator easily
 
   ## [License]
   
   License used is from :
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
   source:
-  (https://opensource.org/licenses/Apache-2.0)
+  (https://opensource.org/licenses/MPL-2.0)
 
   ## [Contributions]
-  nope
+  Not at this time
 
   ## [Test]
-  dfsdf
+  lol
 
 
   ## [Questions or Concerns?]
-  - Issues: Not at this time
-  - Name: Young Ji Kim
+  - Issues: not at this time
+  - Name: Young Ji
   - GitHub Username: youjmi
-  - Email: test@gmail.com
+  - Email: nope!
   
   
