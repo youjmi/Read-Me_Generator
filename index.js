@@ -25,8 +25,6 @@ const fs = require("fs");
 
 // TODO: Create an array of questions for user input
 
-const question =
-
     inquirer
         .prompt([{
 
@@ -34,6 +32,7 @@ const question =
             name: "name",
             type: "input",
             message: "What is your name?",
+            //Validation. Making sure user doesnt just press enter to skip. //
             validate: entryInput => {
                 if (entryInput) {
                     return true
@@ -47,6 +46,7 @@ const question =
             name: "username",
             type: "input",
             message: "What is your GitHub User Name?",
+            //Validation. Making sure user doesnt just press enter to skip. //
             validate: entryInput => {
                 if (entryInput) {
                     return true
@@ -60,6 +60,7 @@ const question =
             name: "title",
             type: "input",
             message: "What is the title of your project?",
+            //Validation. Making sure user doesnt just press enter to skip. //
             validate: entryInput => {
                 if (entryInput) {
                     return true

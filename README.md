@@ -1,7 +1,7 @@
 
-  ## Testing ReadMe Generator
+  ## Test test
   License used is from :
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
   * [Description](#description)
@@ -14,33 +14,33 @@
 
 
   ## [Description] 
-  Not at this time
+  test test
   
   ## [Installation]
-  test test test test
+  test
   
 
   ## [Usage]
-  To create a ReadMe efficiently and quickly
+  testing
 
   ## [License]
   
   License used is from :
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   source:
-  (https://www.gnu.org/licenses/gpl-3.0)
+  (https://opensource.org/licenses/MIT)
 
   ## [Contributions]
-  Not at this time
+  teeeest
 
   ## [Test]
-  lol
+  lol i dk how to answer this question bc i do not know what TEST means.
 
 
   ## [Questions or Concerns?]
-  - Issues: What is the meaning of life?
-  - Name: Young Ji
+  - Issues: At this time, no
+  - Name: Young Ji Kim
   - GitHub Username: youjmi
   - Email: test@gmail.com
   
