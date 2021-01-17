@@ -27,89 +27,108 @@ const fs = require("fs");
 
 const question =
 
-inquirer
-    .prompt([{
+    inquirer
+        .prompt([{
 
-        //FIND A WAY TO MAKE SURE SOMETHING IS ALWAYS ADDED AND NOT BLANK//
-        name: "name",
-        type: "input",
-        message: "What is your name?"
-    },
-    {
-        name: "username",
-        type: "input",
-        message: "What is your GitHub User Name?"
-    },
-    {
-        name: "title",
-        type: "input",
-        message: " What is the title of your project?"
-    },
-    {
-        name: "description",
-        type: "input",
-        message: "Please share a detailed description about your project"
-    },
-    {
-        name: "installation",
-        type: "input",
-        message: "Please share detailed instructions on how to properly install your program"
-    },
-    {
-        name:"usage",
-        type:"input",
-        message:"What is the usage?"
+            //FIND A WAY TO MAKE SURE SOMETHING IS ALWAYS ADDED AND NOT BLANK//
+            name: "name",
+            type: "input",
+            message: "What is your name?",
+            validate: entryInput => {
+                if (entryInput) {
+                    return true
+                }
+                else {
+                    console.log ("Please put in your name!")
+                }
+            }
+        },
+        {
+            name: "username",
+            type: "input",
+            message: "What is your GitHub User Name?",
+            validate: entryInput => {
+                if (entryInput) {
+                    return true
+                }
+                else {
+                    console.log ("Please put in your User Name!")
+                }
+            }
+        },
+        {
+            name: "title",
+            type: "input",
+            message: "What is the title of your project?",
+            validate: entryInput => {
+                if (entryInput) {
+                    return true
+                }
+                else {
+                    console.log ("Please put in your Title of this project!")
+                }
+            }
+        },
+        {
+            name: "description",
+            type: "input",
+            message: "Please share a detailed description about your project if you have anything you would like to share?"
+        },
+        {
+            name: "installation",
+            type: "input",
+            message: "Please share detailed instructions on how to properly install your program?"
+        },
+        {
+            name: "usage",
+            type: "input",
+            message: "What is the usage?"
 
-    },
-    {
-        name:"license",
-        type: "list",
-        message:"Select the License",
-        choices: [
-            "MIT",
-            "APACHE-2.0",
-            "ISC",
-            "GPL",
-            "ADD MORE LICENSES", //FOLLOW UP AND FIGURE OUT 
-            "No License Applicable"
-        ],
-        // validate: entryInput => {
-        //     if (data.choices[3]) {
-        //         return 
-        //     }
-        // }
-    },
-    {
-        name: "contributor",
-        type: "input",
-        message: "Please share and give special recognition to those who assisted in contributing to your project"
-    },
-    {
-        name:"test",
-        type:"input",
-        message:"Figure out a good questions for this..... FOLLOW UP" ///FOLLOW UP ON WHAT THIS MEANS SPECIFICALLY
-    },
+        },
+        {
+            name: "license",
+            type: "list",
+            message: "Which license did you use?",
+            choices: [
+                "MIT",
+                "APACHE-2.0",
+                "ISC",
+                "GNU GPL-v3.0",
+                "MOZILLA",
+                "No License Applicable"
+            ],
+        },
+        {
+            name: "constribution",
+            type: "input",
+            message: "Are there any resources or any contributors that you would like to mention?"
+        },
+        {
+            name: "test",
+            type: "input",
+            message: "Figure out a good questions for this..... FOLLOW UP?" ///FOLLOW UP ON WHAT THIS MEANS SPECIFICALLY
+        },
 
 
-    {
-        name: "questions",
-        type: "input",
-        message: "Are there any questions or any issues that you would like to share with me?"
-    },
-    {
-        name: "contact",
-        type:"input",
-        message:"Thank you for sharing! Lastly, please share your email so that I can contact you personally to answer your concerns if any"
-    }, 
-    ])
+        {
+            name: "questions",
+            type: "input",
+            message: "Are there any questions or any issues that you would like to share with me?"
+        },
+        {
+            name: "contact",
+            type: "input",
+            message: "Thank you for sharing! \n Lastly, please share your email so that I can contact you personally to answer your concerns if any:"
+        },
+        ])
 
-    // TODO: Create a function to write README file
+        // TODO: Create a function to write README file
 
 
-    .then((data) => {
+        .then((data) => {
 
-        fs.writeFile("README.md", generateMarkdown(data, null, '\t' ), (err) => //(`/r/n`) <-New Line each time
+            fs.writeFile("README.md", generateMarkdown(data, null, '\t'), (err) => //(`/r/n`) <-New Line each time
 
-            err ? console.log(err) : console.log("Success!!! Your ReadMe is now created")
-        );
-    });
+                err ? console.log(err) : console.log("Success!!! Your ReadMe is now created")
+            );
+        });
