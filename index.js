@@ -28,7 +28,7 @@ const fs = require("fs");
     inquirer
         .prompt([{
 
-            //FIND A WAY TO MAKE SURE SOMETHING IS ALWAYS ADDED AND NOT BLANK//
+            //FIND A WAY TO MAKE SURE SOMETHING IS ALWAYS ADDED FOR THE REQUIRED QUESTIONS ONLY AND NOT BLANK//
             name: "name",
             type: "input",
             message: "What is your name?",
