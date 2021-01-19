@@ -128,7 +128,7 @@ const fs = require("fs");
 
         .then((data) => {
 
-            fs.writeFile("README.md", generateMarkdown(data, null, '\t'), (err) => //(`/r/n`) <-New Line each time
+            fs.writeFile("ReadMeGeneratedSample.md", generateMarkdown(data, null, '\t'), (err) => //(`/r/n`) <-New Line each time
 
                 err ? console.log(err) : console.log("Success!!! Your ReadMe is now created")
             );
