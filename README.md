@@ -1,4 +1,4 @@
-# ReadMeGenerator
+# Read-Me_Generator
 
 Welcome to my ReadMe Generator!
 
