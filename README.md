@@ -26,13 +26,13 @@ My reason for incorporating this function is because I found the first 3 questio
 
 ![Validate Qs](https://user-images.githubusercontent.com/73494581/105398236-1b1b8880-5bf0-11eb-8a28-87faa223999a.png)
 
-![Pic1](https://user-images.githubusercontent.com/73494581/105398205-11922080-5bf0-11eb-968a-61ad001fb16b.png)
+![Screen Shot 2021-01-21 at 1 55 41 PM](https://user-images.githubusercontent.com/73494581/105398479-69308c00-5bf0-11eb-9e9d-64427a16e502.png)
 
 After the user passes through these 3 Required Quesitons, the user can freely skip through the following question by pressing ENTER or type in the necessary details in their appropriate Terminal.
 
 When the user gets to the last question, she/he/they will receive a message stating that their README is now generated. 
 
-![Pic 2](https://user-images.githubusercontent.com/73494581/105398224-16ef6b00-5bf0-11eb-9265-3aa95b9455db.png)
+![Screen Shot 2021-01-21 at 1 55 54 PM](https://user-images.githubusercontent.com/73494581/105398478-69308c00-5bf0-11eb-81ab-f8fd8b6fd4c9.png)
 
 Lastly, the user will notice their newly generated README appear  and the added information has been transferred!
 
