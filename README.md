@@ -18,7 +18,8 @@ Once that is invoked, your terminal will proceed with a variety of different que
 
 For these 3 questions I have incorporated a VALIDATE function with an If/Else statemnt inside it so that if an input isnt added, then to send a message via CONSOLE.LOG. 
 
-```validate: (Function)
+```
+validate: (Function)
 ```
 
 My reason for incorporating this function is because I found the first 3 questions to be necessary and required for any README. 
