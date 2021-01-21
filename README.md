@@ -24,16 +24,17 @@ validate: (Function)
 
 My reason for incorporating this function is because I found the first 3 questions to be necessary and required for any README. 
 
-Val Q
+![Validate Qs](https://user-images.githubusercontent.com/73494581/105398236-1b1b8880-5bf0-11eb-8a28-87faa223999a.png)
 
-Pic 1
+![Pic1](https://user-images.githubusercontent.com/73494581/105398205-11922080-5bf0-11eb-968a-61ad001fb16b.png)
 
 After the user passes through these 3 Required Quesitons, the user can freely skip through the following question by pressing ENTER or type in the necessary details in their appropriate Terminal.
 
 When the user gets to the last question, she/he/they will receive a message stating that their README is now generated. 
 
-Pic 2
+![Pic 2](https://user-images.githubusercontent.com/73494581/105398224-16ef6b00-5bf0-11eb-9265-3aa95b9455db.png)
 
 Lastly, the user will notice their newly generated README appear  and the added information has been transferred!
 
-Pic
+![pic3](https://user-images.githubusercontent.com/73494581/105398230-18b92e80-5bf0-11eb-80f9-97cc904714f8.png)
+
