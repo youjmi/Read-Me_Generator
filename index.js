@@ -18,8 +18,11 @@
 
 
 // TODO: Include packages needed for this application
+//NPM Inquirer//
 const inquirer = require("inquirer")
+//Call for or Require Generate Markdown file//
 const generateMarkdown = require("./utils/generateMarkdown")
+//Call for or Require fs or File System. You do not need to install as this is default in NODE// 
 const fs = require("fs");
 
 
@@ -127,7 +130,7 @@ const fs = require("fs");
 
 
         .then((data) => {
-
+            //Linked gnerateMarkdown into writeFile function and compressed coding even further// 
             fs.writeFile("ReadMeGeneratedSample.md", generateMarkdown(data, null, '\t'), (err) => //(`/r/n`) <-New Line each time
 
                 err ? console.log(err) : console.log("Success!!! Your ReadMe is now created")
