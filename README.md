@@ -14,7 +14,7 @@ The application will be invoked by using the following command:
 ```
 node index.js
 ```
-Once that is invoked, the user's terminal will proceed with a variety of different questions that will help create the README. If you choose to skip and not add any input you, are allowed to do so by pressing ENTER, however I do want to make note that I have no allowed that for 3 of my questions. 
+Once that is invoked, the user's terminal will proceed with a variety of different questions that will help create the README. If you choose to skip and not add any input you, are allowed to do so by pressing ENTER, however I do want to make note that I have not allowed that for 3 of my questions. 
 
 For these 3 questions I have incorporated a VALIDATE function with an If/Else statemnt inside it so that if an input isnt added, then to send a message via CONSOLE.LOG. 
 
