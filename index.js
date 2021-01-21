@@ -107,7 +107,7 @@ const fs = require("fs");
         {
             name: "test",
             type: "input",
-            message: "What are the testing instructions?" ///FOLLOW UP ON WHAT THIS MEANS SPECIFICALLY
+            message: "What are the testing instructions?" 
         },
 
 

@@ -1,7 +1,7 @@
 
-  ## How to use a ReadMe Generator
+  ## ReadMe_Tutorial
   License used is from :
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents
   * [Description](#description)
@@ -14,33 +14,33 @@
 
 
   ## [Description] 
-  Not at this time
+  Testing
   
   ## [Installation]
-  Not at this time
+  TEST
   
 
   ## [Usage]
-  Not at this time
+  TEST
 
   ## [License]
   
   License used is from :
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   source:
-  (https://opensource.org/licenses/MPL-2.0)
+  (https://opensource.org/licenses/Apache-2.0)
 
   ## [Contributions]
-  Not at this tim
+  not at this TIME
 
   ## [Test]
-  Nope
+  TEST
 
 
   ## [Questions or Concerns?]
-  - Issues: n
-  - Name: Young Ji Kim,
+  - Issues: 12345
+  - Name: Young Ji
   - GitHub Username: youjmi
   - Email: test@gmail.com
   
