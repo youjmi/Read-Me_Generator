@@ -67,7 +67,7 @@ Lastly, the user will notice their newly generated README to appear and the adde
 
 Thank you for having the time to view my work. In my generateMarkdown.js file, I have used this webiste as a reserouce for the licenses: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-I would like to give special acknowledgement to my study group as well. We assist one another by proving Feedback, Brainstorming, and general support:
+I would like to give special acknowledgement to my study group as well. We assist one another by providing Feedback, Brainstorming, and general support:
 
     1. Rachel Wanke - https://github.com/rwanke14
     2. Amir Ashtiany - https://github.com/Alexfit4
