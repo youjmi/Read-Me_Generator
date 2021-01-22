@@ -69,7 +69,7 @@ Thank you for having the time to view my work. In my generateMarkdown.js file, I
 
 I would like to give special acknowledgement to my study group as well. We assist one another by proving Feedback, Brainstorming, and general support:
 
-    1. Young Ji Kim - https://github.com/youjmi
+    1. Rachel Wanke - https://github.com/rwanke14
     2. Amir Ashtiany - https://github.com/Alexfit4
     3. Johnnie Simpson - https://github.com/balokdecoy
     4. Frankie Rosado - https://github.com/Franciscorosado09
