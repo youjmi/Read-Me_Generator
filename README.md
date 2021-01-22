@@ -49,7 +49,7 @@ validate: (Function)
 
 My reason for incorporating this function is because I found the first 3 questions to be necessary and required for any README. 
 
-![Validate Qs](https://user-images.githubusercontent.com/73494581/105398236-1b1b8880-5bf0-11eb-8a28-87faa223999a.png)
+![Screen Shot 2021-01-21 at 10 02 03 PM](https://user-images.githubusercontent.com/73494581/105440305-5cce2280-5c34-11eb-9d11-770ba0531ffa.png)
 
 ![Screen Shot 2021-01-21 at 1 55 41 PM](https://user-images.githubusercontent.com/73494581/105398479-69308c00-5bf0-11eb-9e9d-64427a16e502.png)
 
