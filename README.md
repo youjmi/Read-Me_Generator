@@ -7,7 +7,7 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Constributions] (#contribution)
+  * [Contribution](#contribution)
 
  
 
@@ -63,7 +63,7 @@ Lastly, the user will notice their newly generated README to appear and the adde
 
 ![pic3](https://user-images.githubusercontent.com/73494581/105398230-18b92e80-5bf0-11eb-80f9-97cc904714f8.png)
 
-## Constribution
+## Contribution
 
 Thank you for having the time to view my work. In my generateMarkdown.js file, I have used this webiste as a reserouce for the licenses: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
