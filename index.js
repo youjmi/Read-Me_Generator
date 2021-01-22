@@ -22,7 +22,7 @@
 const inquirer = require("inquirer")
 //Call for or Require Generate Markdown file//
 const generateMarkdown = require("./utils/generateMarkdown")
-//Call for or Require fs or File System. You do not need to install as this is default in NODE// 
+//Call for or Require fs or File System. You do not need to install as this is default// 
 const fs = require("fs");
 
 
@@ -31,11 +31,10 @@ const fs = require("fs");
     inquirer
         .prompt([{
 
-            //FIND A WAY TO MAKE SURE SOMETHING IS ALWAYS ADDED FOR THE REQUIRED QUESTIONS ONLY AND NOT BLANK//
             name: "name",
             type: "input",
             message: "What is your name?",
-            //Validation. Making sure user doesnt just press enter to skip. //
+            //Validate:. This is so that an input is REQUIRED//
             validate: entryInput => {
                 if (entryInput) {
                     return true
@@ -49,7 +48,7 @@ const fs = require("fs");
             name: "username",
             type: "input",
             message: "What is your GitHub User Name?",
-            //Validation. Making sure user doesnt just press enter to skip. //
+            //Validate:. This is so that an input is REQUIRED//
             validate: entryInput => {
                 if (entryInput) {
                     return true
@@ -63,7 +62,7 @@ const fs = require("fs");
             name: "title",
             type: "input",
             message: "What is the title of your project?",
-            //Validation. Making sure user doesnt just press enter to skip. //
+            //Validate:. This is so that an input is REQUIRED//
             validate: entryInput => {
                 if (entryInput) {
                     return true
@@ -130,7 +129,7 @@ const fs = require("fs");
 
         .then((data) => {
             //Linked gnerateMarkdown into writeFile function and compressed coding even further // 
-            fs.writeFile("ReadMeGeneratedSample.md", generateMarkdown(data, null, '\t'), (err) => //(`/r/n`) <-New Line each time
+            fs.writeFile("ReadMeGeneratedSample.md", generateMarkdown(data, null, '\t'), (err) => 
 
                 err ? console.log(err) : console.log("Success!!! Your ReadMe is now created")
             );
